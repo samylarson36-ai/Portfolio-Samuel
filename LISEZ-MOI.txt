@@ -1,0 +1,34 @@
+PORTFOLIO FUTURISTE – Ekwe Owona Sone Sone
+==========================================
+
+CONTENU DU DOSSIER
+- index.html          : la page (textes, sections, projets, contact)
+- css/style.css       : le design (palette, animations, responsive)
+- js/script.js        : portail d'entrée, animations, radar, diaporama, formulaire
+- assets/             : photo et captures d'écran des projets
+- cv/                 : CV en PDF (bouton « Télécharger mon CV »)
+
+Tous les fichiers sont déjà reliés entre eux : gardez cette arborescence telle quelle.
+
+VOIR LE RÉSULTAT
+Double-cliquez sur index.html (internet requis pour charger les polices).
+
+CE QUE VOUS POUVEZ MODIFIER
+1. Textes, formation, projets, contact : index.html (des commentaires <!-- ===== --> repèrent chaque section).
+2. Niveaux de compétences : liste SKILLS au début de js/script.js (le radar et les barres se mettent à jour tout seuls).
+3. Phrases qui s'écrivent (portail et accueil) : listes INTRO et ROLES dans js/script.js.
+4. Couleurs : variables --a, --b, --c au début de css/style.css.
+5. Ajouter un projet : copiez un bloc <article class="cd pj rv"> dans index.html, changez le texte,
+   l'image (assets/) et la liste data-imgs. data-t="web" ou "design" sert au filtre.
+6. Remplacer le CV : écrasez cv/CV_Ekwe_Owona_Sone_Sone.pdf (même nom de fichier).
+7. Ajouter GitHub / LinkedIn : ajoutez une ligne <a> dans la section Contact.
+
+NOTE CONFIDENTIALITÉ
+- Sur le flyer (assets/flyer.jpg), l'adresse du domicile est floutée. Le visage du bébé est visible :
+  vérifiez que la cliente est d'accord pour publier le flyer.
+- Sur la capture GEDA, le nom de l'utilisateur est remplacé par « Bienvenue ».
+
+HÉBERGER GRATUITEMENT
+- Netlify : app.netlify.com/drop, glissez le dossier. Lien immédiat.
+- GitHub Pages : dépôt avec ces fichiers à la racine, puis Settings > Pages > Deploy from a branch.
+- Vercel : importez le dossier ou le dépôt GitHub.

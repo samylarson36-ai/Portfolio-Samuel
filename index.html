@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Titre de l’onglet et description pour Google : à adapter -->
+<title>Ekwe Owona Sone Sone – Portfolio</title>
+<meta name="description" content="Portfolio d’Ekwe Owona Sone Sone, étudiant en IA et Big Data et développeur web.">
+<meta name="theme-color" content="#05070f">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Orbitron:wght@500;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body class="lock">
+
+<!-- ===== PORTAIL D’ENTRÉE : le nom et la profession apparaissent, puis il faut cliquer sur le portail ===== -->
+<div id="intro">
+<canvas id="stars" aria-hidden="true"></canvas>
+<div class="in-box">
+<div class="kick">Bienvenue dans mon univers</div>
+<h1 class="it-name" id="itName" aria-label="Ekwe Owona Sone Sone">Ekwe Owona Sone Sone</h1>
+<div class="it-sub" id="itSub"></div>
+<button class="portal" id="enter" type="button" aria-label="Entrer dans mon monde"><i></i><i></i><i></i><b><span>ENTRER</span></b></button>
+<div class="hint">CLIQUEZ POUR ENTRER DANS MON MONDE ET DÉCOUVRIR QUI JE SUIS</div>
+</div>
+</div>
+
+<div id="bar"></div><div id="glow"></div>
+<nav><div class="wrap">
+<a class="logo" href="#top" data-go>EKWE<b>.</b>DEV</a>
+<div class="links" id="links">
+<a href="#about" data-go>Présentation</a><a href="#skills" data-go>Compétences</a><a href="#path" data-go>Parcours</a><a href="#work" data-go>Projets</a><a href="#cv" data-go>CV</a><a href="#contact" data-go>Contact</a>
+</div>
+<button id="burger" type="button" aria-label="Ouvrir le menu" aria-expanded="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+</div></nav>
+
+<header class="hero" id="top"><div class="wrap">
+<div>
+<span class="hi rv"><i></i>Disponible pour un stage</span>
+<h1 class="rv" style="--d:.1s">Je suis <span class="grad">Ekwe Owona Sone Sone</span></h1>
+<div class="type rv" style="--d:.2s" id="type"></div>
+<p class="sub rv" style="--d:.3s">Passionné d’IA et de développement web, je conçois des solutions originales, créatives et automatisées.</p>
+<div class="cta rv" style="--d:.4s"><a class="btn p" href="#work" data-go>Voir mes projets →</a><a class="btn" href="cv/CV_Ekwe_Owona_Sone_Sone.pdf" download>Télécharger mon CV</a></div>
+</div>
+<div class="ph rv" style="--d:.2s"><i></i><i></i><img src="assets/photo.jpg" alt="Portrait d’Ekwe Owona Sone Sone"><span class="tag t1">IA</span><span class="tag t2">WEB</span><span class="tag t3">BIG DATA</span></div>
+</div></header>
+
+<div class="wrap"><div class="stats">
+<div class="cd rv"><b data-n="7">0</b><span>Projets</span></div>
+<div class="cd rv" style="--d:.1s"><b data-n="7">0</b><span>Langages</span></div>
+<div class="cd rv" style="--d:.2s"><b data-n="3">0</b><span>Frameworks</span></div>
+<div class="cd rv" style="--d:.3s"><b data-n="2">0</b><span>Langues</span></div>
+</div></div>
+<div class="tick" style="margin-top:60px" aria-hidden="true"><div id="tick"></div></div>
+
+<!-- ===== PRÉSENTATION : modifiez les phrases et les cartes ===== -->
+<section id="about"><div class="wrap">
+<div class="lab rv">01 · Présentation</div><h2 class="rv">Qui suis-je ?</h2>
+<div class="two">
+<div class="rv"><p>Passionné d’IA, de technologie informatique, de développement web et de solutions d’automatisation, j’ai une vision unique des choses qui donne à mes projets un côté original et créatif.</p>
+<p>Je souhaite apprendre et maîtriser de nombreux domaines de l’informatique, continuer à concevoir et développer des solutions grâce aux outils numériques, et un jour créer une start-up innovante et grandissante.</p>
+<div class="q"><span class="chip">Créatif</span><span class="chip">Sérieux</span><span class="chip">Concentré</span><span class="chip">Dynamique</span><span class="chip">Sportif</span><span class="chip">Lecture</span><span class="chip">Cuisine</span></div></div>
+<div class="facts">
+<div class="cd rv"><small>Formation actuelle</small><b>Licence IA &amp; Big Data</b><small>Keyce Informatique et Intelligence Artificielle</small></div>
+<div class="cd rv" style="--d:.1s"><small>Diplôme</small><b>DUT Génie Informatique</b><small>Institut Universitaire de Technologies · 2026</small></div>
+<div class="cd rv" style="--d:.2s"><small>Je recherche</small><b>Un stage</b><small>Développement web · IA · Automatisation</small></div>
+</div></div></div></section>
+
+<!-- ===== COMPÉTENCES : les niveaux se modifient dans js/script.js (liste SKILLS) ===== -->
+<section id="skills"><div class="wrap">
+<div class="lab rv">02 · Compétences</div><h2 class="rv">Ma boîte à outils.</h2>
+<div class="sk rv"><svg id="radar" viewBox="0 0 340 340" role="img" aria-label="Diagramme radar de mes langages"></svg><div id="bars"></div></div>
+<div class="langs rv">
+<div class="lg"><div class="gauge" style="--v:84"><b>C1</b></div><div><b>Français</b><br><small>Langue maternelle ou courante</small></div></div>
+<div class="lg"><div class="gauge" style="--v:67"><b>B2</b></div><div><b>Anglais</b><br><small>Intermédiaire supérieur</small></div></div>
+</div></div></section>
+
+<!-- ===== PARCOURS ===== -->
+<section id="path"><div class="wrap">
+<div class="lab rv">03 · Parcours</div><h2 class="rv">Ma trajectoire.</h2>
+<div class="tl">
+<div class="it cd rv"><small>OCTOBRE 2026 – AUJOURD’HUI</small><h3>Licence IA &amp; Big Data</h3><p>Keyce Informatique et Intelligence Artificielle</p></div>
+<div class="it cd rv"><small>2024 – 2026</small><h3>DUT Génie Informatique</h3><p>Institut Universitaire de Technologies</p></div>
+<div class="it cd rv"><small>2024</small><h3>Baccalauréat général scientifique C</h3><p>Lycée Bilingue de Ngodi Bakoko</p></div>
+<div class="it cd rv"><small>2023</small><h3>Probatoire général scientifique C</h3><p>Lycée Bilingue de Ngodi Bakoko</p></div>
+<div class="it cd rv"><small>2021</small><h3>BEPC série espagnole</h3><p>Lycée Bilingue de Ngodi Bakoko</p></div>
+</div>
+<div class="goals">
+<div class="cd rv"><h3>COURT TERME</h3><p>Décrocher un stage et passer des certifications sur le pack Adobe.</p></div>
+<div class="cd rv" style="--d:.1s"><h3>MOYEN TERME</h3><p>M’engager dans le développement logiciel et élargir mes domaines de maîtrise.</p></div>
+<div class="cd rv" style="--d:.2s"><h3>LONG TERME</h3><p>Créer une start-up innovante et grandissante.</p></div>
+</div></div></section>
+
+<!-- ===== PROJETS : un bloc <article class="cd pj"> par projet ; data-t = catégorie du filtre (web ou design) ; data-imgs = captures du diaporama ; le lien « Voir le site » pointe vers le site en ligne ===== -->
+<section id="work"><div class="wrap">
+<div class="lab rv">04 · Projets</div><h2 class="rv">Ce que j’ai construit.</h2>
+<p class="rv" style="color:var(--mut);margin:-18px 0 26px;max-width:640px">Six sites vitrines réalisés sous forme de templates et hébergés en ligne (cliquez pour les visiter), et un projet de design graphique.</p>
+<div class="flt rv" role="group" aria-label="Filtrer les projets"><button type="button" class="on" data-f="all">Tous</button><button type="button" data-f="web">Web</button><button type="button" data-f="design">Design</button></div>
+<div class="grid">
+<article class="cd pj rv" data-t="web" data-imgs="assets/atlas_1.jpg,assets/atlas_2.jpg,assets/atlas_3.jpg,assets/atlas_4.jpg">
+<div class="th"><img src="assets/atlas_1.jpg" alt="Capture du site Bienvenue à l’Atlas Athletic Club" loading="lazy"></div>
+<div class="bd2"><div class="tg"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+<h3>Atlas Athletic Club</h3>
+<p>Site vitrine d’une salle de sport à Douala : présentation de la salle, planning de cours filtrable par discipline, coachs, tarifs en FCFA et formulaire de séance d’essai.</p>
+<span class="role">Template · Salle de sport fictif · conçu et hébergé en ligne</span>
+<div class="acts"><button type="button" class="shots">Captures</button><a href="https://atlas-athletic-club.samylarson36.workers.dev/" target="_blank" rel="noopener">Voir le site ↗</a></div></div></article>
+<article class="cd pj rv" data-t="web" style="--d:0.1s" data-imgs="assets/mbarga_1.jpg,assets/mbarga_2.jpg,assets/mbarga_3.jpg,assets/mbarga_4.jpg">
+<div class="th"><img src="assets/mbarga_1.jpg" alt="Capture du site Cabinet Mbarga &amp; Associés" loading="lazy"></div>
+<div class="bd2"><div class="tg"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+<h3>Cabinet Mbarga &amp; Associés</h3>
+<p>Site d’un cabinet d’avocats : domaines d’intervention, présentation de l’équipe, méthode en quatre étapes, questions fréquentes et formulaire de prise de rendez-vous.</p>
+<span class="role">Template · Cabinet d’avocats fictif · conçu et hébergé en ligne</span>
+<div class="acts"><button type="button" class="shots">Captures</button><a href="https://cabinet-mbarga-associes.samylarson36.workers.dev/" target="_blank" rel="noopener">Voir le site ↗</a></div></div></article>
+<article class="cd pj rv" data-t="web" style="--d:0.2s" data-imgs="assets/lea_1.jpg,assets/lea_2.jpg,assets/lea_3.jpg,assets/lea_4.jpg">
+<div class="th"><img src="assets/lea_1.jpg" alt="Capture du site Léa Ndzana, peintre" loading="lazy"></div>
+<div class="bd2"><div class="tg"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+<h3>Léa Ndzana, peintre</h3>
+<p>Portfolio d’artiste peintre : galerie d’œuvres filtrable (mer, ville, nuit) avec formats et prix, présentation de l’atelier et des expositions, demande de devis pour une toile.</p>
+<span class="role">Template · Portfolio d’artiste fictif · conçu et hébergé en ligne</span>
+<div class="acts"><button type="button" class="shots">Captures</button><a href="https://lea-ndzana-peintre.samylarson36.workers.dev/" target="_blank" rel="noopener">Voir le site ↗</a></div></div></article>
+<article class="cd pj rv" data-t="web" data-imgs="assets/routelle_1.jpg,assets/routelle_2.jpg,assets/routelle_3.jpg,assets/routelle_4.jpg">
+<div class="th"><img src="assets/routelle_1.jpg" alt="Capture du site Routelle" loading="lazy"></div>
+<div class="bd2"><div class="tg"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+<h3>Routelle</h3>
+<p>Site produit d’un logiciel de planification de livraisons : suivi d’une route en direct, comparatif avant/après des itinéraires, fonctionnalités, tarifs, FAQ et réservation de démo.</p>
+<span class="role">Template · Site produit (SaaS) fictif · conçu et hébergé en ligne</span>
+<div class="acts"><button type="button" class="shots">Captures</button><a href="https://routelle.samylarson36.workers.dev/" target="_blank" rel="noopener">Voir le site ↗</a></div></div></article>
+<article class="cd pj rv" data-t="web" style="--d:0.1s" data-imgs="assets/verane_1.jpg,assets/verane_2.jpg,assets/verane_3.jpg,assets/verane_4.jpg">
+<div class="th"><img src="assets/verane_1.jpg" alt="Capture du site Atelier Vérane" loading="lazy"></div>
+<div class="bd2"><div class="tg"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+<h3>Atelier Vérane</h3>
+<p>Site d’une agence d’architecture (en anglais) : réalisations filtrables par catégorie, services, chiffres clés, équipe et formulaire de contact.</p>
+<span class="role">Template · Agence d’architecture fictif · conçu et hébergé en ligne</span>
+<div class="acts"><button type="button" class="shots">Captures</button><a href="https://v-rane.samylarson36.workers.dev/" target="_blank" rel="noopener">Voir le site ↗</a></div></div></article>
+<article class="cd pj rv" data-t="web" style="--d:0.2s" data-imgs="assets/pilon_1.jpg,assets/pilon_2.jpg,assets/pilon_3.jpg,assets/pilon_4.jpg">
+<div class="th"><img src="assets/pilon_1.jpg" alt="Capture du site Pilon" loading="lazy"></div>
+<div class="bd2"><div class="tg"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+<h3>Pilon – torréfacteur de café</h3>
+<p>Boutique en ligne d’un torréfacteur : catalogue filtrable par niveau de torréfaction, panier, abonnement configurable avec prix calculé, histoire de la torréfaction et newsletter.</p>
+<span class="role">Template · Boutique en ligne fictif · conçu et hébergé en ligne</span>
+<div class="acts"><button type="button" class="shots">Captures</button><a href="https://pilon-coffee-roasters.samylarson36.workers.dev/" target="_blank" rel="noopener">Voir le site ↗</a></div></div></article>
+<article class="cd pj rv" data-t="design" style="--d:.1s" data-imgs="assets/flyer.jpg">
+<div class="th"><img src="assets/flyer.jpg" alt="Flyer de baptême réalisé avec Canva" loading="lazy"></div>
+<div class="bd2"><div class="tg"><span>Canva</span><span>Design graphique</span></div>
+<h3>Flyer de baptême</h3>
+<p>Création d’un flyer pour le baptême d’une petite fille, selon la demande de la cliente : un modèle chic et soft, dans un style fille, avec une palette de couleurs maîtrisée et soignée.</p>
+<span class="role">Rôle : projet réalisé seul, de A à Z</span>
+<div class="acts"><button type="button" class="shots">Voir le flyer</button></div></div></article>
+</div></div></section>
+
+<!-- ===== CV : le PDF se trouve dans le dossier cv/ ===== -->
+<section id="cv"><div class="wrap"><div class="cd cv rv">
+<div><div class="lab">05 · CV</div><h2 style="margin-bottom:18px">Mon CV en un clic.</h2>
+<ul><li>Licence IA &amp; Big Data · DUT Génie Informatique</li><li>Développement web : HTML, CSS, JavaScript, React, Laravel</li><li>Français C1 · Anglais B2</li><li>À la recherche d’un stage</li></ul>
+<div class="cta"><a class="btn p" href="cv/CV_Ekwe_Owona_Sone_Sone.pdf" download>⬇ Télécharger le CV (PDF)</a><a class="btn" href="cv/CV_Ekwe_Owona_Sone_Sone.pdf" target="_blank" rel="noopener">Ouvrir</a></div></div>
+<div class="ph" style="width:min(70vw,250px)"><i></i><img src="assets/photo.jpg" alt="Photo d’Ekwe Owona Sone Sone"></div>
+</div></div></section>
+
+<!-- ===== CONTACT : changez l’e-mail, le numéro et la ville ici ===== -->
+<section id="contact"><div class="wrap">
+<div class="lab rv">06 · Contact</div><h2 class="rv">Travaillons ensemble.</h2>
+<div class="ct">
+<div class="rv"><p style="color:var(--mut);margin:0">Une question, une opportunité de stage, un projet ? Écrivez-moi, je réponds rapidement.</p>
+<div class="cl"><a href="mailto:samylarson36@gmail.com"><b>E-MAIL</b>samylarson36@gmail.com</a><a href="tel:+237655181762"><b>TÉL.</b>+237 6 55 18 17 62</a><a href="https://wa.me/237655181762" target="_blank" rel="noopener"><b>WHATSAPP</b>+237 6 55 18 17 62</a><a href="#contact"><b>VILLE</b>Douala, Cameroun</a></div></div>
+<form id="form" class="cd rv" style="--d:.1s"><label>Votre nom<input id="fn" required autocomplete="name"></label><label>Votre message<textarea id="fm" required></textarea></label><button class="btn p" type="submit">Envoyer par e-mail →</button></form>
+</div></div></section>
+<footer>© <span id="yr">2026</span> Ekwe Owona Sone Sone · Conçu avec passion à Douala</footer>
+
+<div id="lb" role="dialog" aria-modal="true" aria-label="Captures du projet"><button class="x" id="lbx" type="button" aria-label="Fermer">✕</button><img id="lbi" alt=""><div class="ctl"><button id="lbp" type="button" aria-label="Précédent">‹</button><span id="lbc"></span><button id="lbn" type="button" aria-label="Suivant">›</button></div></div>
+<script src="js/script.js"></script>
+</body>
+</html>
